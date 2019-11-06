@@ -50,24 +50,4 @@ interface InterfaceName {
 ```
 
 ## TODO List
-- [X] TypeScript Tests
-- TypeScript
-  - [X] Arguments
-  - [X] Methods
-  - [X] Generics
-  - [X] Interfaces
-  - [ ] Namespaces
-  - [ ] Custom Types
-  - [ ] Custom Format Configuration
-- [X] PHP Tests
-- PHP
-  - [X] Arguments
-  - [X] Methods
-  - [X] Interfaces
-  - [ ] Namespaces
-  - [ ] Custom Types
-  - [ ] Custom Format Configuration
-- [ ] Code Review / Refactor
-- Documentation
-  - [ ] DocBlocks
-  - [X] README Docs
+This can be found here: [Project Boards](https://github.com/kingga/interface-builder/projects)
