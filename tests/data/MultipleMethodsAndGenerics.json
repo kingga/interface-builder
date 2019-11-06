@@ -1,0 +1,29 @@
+{
+    "name": "MultipleMethodsAndGenerics",
+    "methods": [
+        {
+            "name": "foo",
+            "returnValue": ["string"],
+            "args": [
+                {
+                    "name": "a",
+                    "types": ["boolean", "number"],
+                    "defaultValue": null
+                },
+                {
+                    "name": "b",
+                    "types": ["any"],
+                    "defaultValue": null
+                }
+            ],
+            "generics": ["TA", "TB"]
+        },
+        {
+            "name": "faz",
+            "returnValue": ["string"],
+            "args": [],
+            "generics": []
+        }
+    ],
+    "generics": ["T1", "T2"]
+}

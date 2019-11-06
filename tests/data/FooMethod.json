@@ -1,0 +1,12 @@
+{
+    "name": "FooMethod",
+    "methods": [
+        {
+            "name": "foo",
+            "args": [],
+            "returnValue": ["string"],
+            "generics": []
+        }
+    ],
+    "generics": []
+}

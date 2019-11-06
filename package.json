@@ -1,0 +1,43 @@
+{
+    "name": "@kingga/interface-builder",
+    "version": "0.0.1-beta",
+    "description": "Builds interfaces in multiple languages base on a JSON schema.",
+    "main": "index.js",
+    "author": "Isaac Skelton <contact@isaacskelton.com>",
+    "license": "MIT",
+    "scripts": {
+        "test": "nyc mocha 'tests/**/*.ts' --require ts-node/register",
+        "dev": "NODE_ENV=development webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch": "NODE_ENV=development webpack --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "prod": "NODE_ENV=production webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+    },
+    "devDependencies": {
+        "@kingga/kc-container": "^1.0.1",
+        "@types/chai": "^4.2.4",
+        "@types/mocha": "^5.2.7",
+        "@types/node": "^12.12.5",
+        "chai": "^4.2.0",
+        "eslint": "^6.6.0",
+        "mocha": "^6.2.2",
+        "nyc": "^14.1.1",
+        "ts-loader": "^6.2.1",
+        "ts-node": "^8.4.1",
+        "typescript": "^3.6.4"
+    },
+    "nyc": {
+        "extension": [
+            ".ts",
+            ".tsx"
+        ],
+        "include": [
+            "src/**/*"
+        ],
+        "exclude": [
+            "**/*/*.d.ts"
+        ],
+        "reporter": [
+            "text"
+        ],
+        "all": true
+    }
+}
