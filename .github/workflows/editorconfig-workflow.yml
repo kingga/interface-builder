@@ -1,0 +1,8 @@
+name: EditorConfig Workflow
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        name: Editor Config Checker
+        steps:
+            - name: EditorConfig-Action
+            - uses: zbeekman/EditorConfig-Action@v1.1.1

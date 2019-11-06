@@ -1,4 +1,6 @@
 # Interface Builder
+[![Build Status](https://travis-ci.com/kingga/interface-builder.svg?branch=master)](https://travis-ci.com/kingga/interface-builder)
+![](https://github.com/kingga/interface-builder/workflows/EditorConfig%20Workflow/badge.svg)
 
 Build interfaces via JSON schema for multiple languages.
 
