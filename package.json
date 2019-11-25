@@ -12,7 +12,7 @@
         "prod": "NODE_ENV=production webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
     },
     "devDependencies": {
-        "@kingga/kc-container": "^1.0.1",
+        "@kingga/kc-container": "^1.0.2",
         "@types/chai": "^4.2.4",
         "@types/mocha": "^5.2.7",
         "@types/node": "^12.12.5",
@@ -39,5 +39,6 @@
             "text"
         ],
         "all": true
-    }
+    },
+    "dependencies": {}
 }

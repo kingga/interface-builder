@@ -89,10 +89,10 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@kingga/kc-container@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@kingga/kc-container/-/kc-container-1.0.1.tgz#8c628bf0f23108e7c9112e15dd93db29846f0d2e"
-  integrity sha512-z/ZtkT+p8pR6zwT0SLYhfkyJ9vm7V19QAyl6V0I2mYet/aIWYCY32KsxcOj3Ds2FlAC2USy84dwpORyt7THAzQ==
+"@kingga/kc-container@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@kingga/kc-container/-/kc-container-1.0.2.tgz#aecc30af77c9fbf4b258f7156df77e8d4a22dafd"
+  integrity sha512-a9NcD0+fb/TWgWmdDumX/jMuNEKWymchfVPBgXqa5TGs3Rj/yQ6WIkZo+xrQUtBoTTUonpyIde52qmU3uOhC2g==
   dependencies:
     camelcase "^5.3.1"
 
